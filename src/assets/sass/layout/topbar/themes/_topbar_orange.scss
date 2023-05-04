@@ -1,0 +1,13 @@
+.layout-topbar-orange {
+  $topbarBgColor: #fb8c00;
+  $topbarLeftBgColor: #ef6c00;
+
+  $topbarMenuButtonBgColor: #212121;
+  $topbarMenuButtonTextColor: #ffffff;
+
+  $topbarItemTextColor: #212121;
+  $topbarItemTextHoverBgColor: rgba(0, 0, 0, 0.12);
+
+  @import "../_topbar_exports";
+  @import "../_topbar_theme";
+}

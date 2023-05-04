@@ -1,0 +1,13 @@
+.layout-topbar-bluegrey {
+  $topbarBgColor: #546e7a;
+  $topbarLeftBgColor: #37474f;
+
+  $topbarMenuButtonBgColor: #0097a7;
+  $topbarMenuButtonTextColor: #ffffff;
+
+  $topbarItemTextColor: #ffffff;
+  $topbarItemTextHoverBgColor: rgba(255, 255, 255, 0.12);
+
+  @import "../_topbar_exports";
+  @import "../_topbar_theme";
+}

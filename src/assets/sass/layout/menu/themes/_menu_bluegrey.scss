@@ -1,0 +1,15 @@
+.layout-menu-bluegrey {
+  $menuBgColor: #37474f;
+
+  $rootMenuTextColor: #ffffff;
+
+  $menuItemTextColor: rgba(255, 255, 255, 0.6);
+  $menuItemHoverBgColor: rgba(255, 255, 255, 0.12);
+  $activeMenuItemTextColor: #ffffff;
+  $activeMenuItemBgColor: rgba(255, 255, 255, 0.24);
+
+  $inlineMenuBorderColor: rgba(255, 255, 255, 0.24);
+
+  @import "../_menu_exports";
+  @import "../_menu_theme";
+}

@@ -1,0 +1,13 @@
+.layout-topbar-indigo {
+  $topbarBgColor: #3f51b5;
+  $topbarLeftBgColor: #283593;
+
+  $topbarMenuButtonBgColor: #e91e63;
+  $topbarMenuButtonTextColor: #ffffff;
+
+  $topbarItemTextColor: #ffffff;
+  $topbarItemTextHoverBgColor: rgba(255, 255, 255, 0.12);
+
+  @import "../_topbar_exports";
+  @import "../_topbar_theme";
+}
